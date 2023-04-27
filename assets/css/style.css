@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.qidalar, .terevezler, .meyveler {
+    width: 30%;
+    height: 50vh;
+    border: 4px dashed rgb(93, 43, 7);
+    
+}
+img {
+    width: 20%;
+}
